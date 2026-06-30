@@ -63,7 +63,7 @@ async function sendMessage() {
     const loadingId = appendMessage('ai', 'Pensando...');
 
     try {
-        const response = await fetch('https://puff-backend.onrender.com/api/chat', {
+        const response = await fetch('https://puff-mrdt.onrender.com/api/chat', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
