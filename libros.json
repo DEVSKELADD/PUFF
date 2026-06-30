@@ -1,30 +1,255 @@
 [
-    {
-        "id": 1,
-        "titulo": "Introduction to Two Cities (Vol. 1)",
-        "autor": "George Orwell",
-        "categoria": "Literatura Inglesa (English)",
-        "sinopsis": "An engaging and thrilling journey written entirely in fluent English.",
-        "stock": 4,
-        "ubicacion": "Piso 1, Sector Idiomas - Estante A"
+  {
+    "id": 122,
+    "titulo": "Química de Fragancias y Notas Olfativas",
+    "autor": "Charles Sell",
+    "categoria": "Química",
+    "sinopsis": "Un análisis profundo sobre la formulación y recomendación de perfumes distintivos, explorando la síntesis química detrás de notas acuáticas, melón y albahaca, y cómo interactúan en la piel humana.",
+    "stock": 2,
+    "ubicacion": "Piso 2, Sector Ciencias - Estante Q"
+  },
+  {
+    "id": 123,
+    "titulo": "Óptica Económica y Equipamiento Fotográfico",
+    "autor": "Brian Bower",
+    "categoria": "Física",
+    "sinopsis": "Guía técnica para maximizar presupuestos ajustados en el mercado de segunda mano, analizando el rendimiento de la luz en sensores de cámaras réflex y lentes súper zoom reacondicionados.",
+    "stock": 3,
+    "ubicacion": "Piso 2, Sector Ciencias - Estante F"
+  },
+  {
+    "id": 124,
+    "titulo": "Sistemas de Gestión de Baterías Móviles",
+    "autor": "Thomas Reddy",
+    "categoria": "Electromagnetismo",
+    "sinopsis": "Estudio de las interfaces de control de energía en sistemas operativos modernos, detallando cómo los límites de carga basados en porcentajes específicos protegen la vida útil del hardware.",
+    "stock": 5,
+    "ubicacion": "Piso 3, Sector Ingeniería - Estante E"
+  },
+  {
+    "id": 125,
+    "titulo": "Desarrollo del Pelaje y Genética Felina",
+    "autor": "Roy Robinson",
+    "categoria": "Medicina",
+    "sinopsis": "Tratado veterinario que detalla la evolución de los patrones de color, con énfasis en las mutaciones que generan los mantos atigrados con blanco en hembras de pelo corto durante sus primeros tres meses.",
+    "stock": 4,
+    "ubicacion": "Piso 1, Sector Salud - Estante M"
+  },
+  {
+    "id": 126,
+    "titulo": "Propiedad Intelectual en el Entretenimiento Digital",
+    "autor": "Richard Bartle",
+    "categoria": "Derecho",
+    "sinopsis": "Estudio legal de las normativas de derechos de autor que protegen el diseño y construcción de personajes en juegos de rol, así como las bases de datos de coleccionables virtuales.",
+    "stock": 6,
+    "ubicacion": "Piso 4, Sector Humanidades - Estante D"
+  },
+  {
+    "id": 127,
+    "titulo": "Cognición y Estrategia Táctica",
+    "autor": "Mark Griffiths",
+    "categoria": "Psicología",
+    "sinopsis": "Análisis del comportamiento humano frente a la toma de decisiones críticas, utilizando como modelo de estudio el planeamiento militar en tiempos del Japón feudal y la gestión de recursos.",
+    "stock": 3,
+    "ubicacion": "Piso 4, Sector Humanidades - Estante P"
+  },
+  {
+    "id": 128,
+    "titulo": "Periodismo de Reseña Tecnológica",
+    "autor": "Walt Mossberg",
+    "categoria": "Periodismo",
+    "sinopsis": "Metodologías rigurosas para la redacción de análisis comparativos de hardware académico, evaluando las especificaciones técnicas de tabletas de alto rendimiento orientadas a la toma de apuntes multimedia.",
+    "stock": 2,
+    "ubicacion": "Piso 1, Sector Comunicaciones - Estante C"
+  },    
+  {
+    "id": 115,
+    "titulo": "Química de Materiales Semiconductores",
+    "autor": "Peter Y. Yu",
+    "categoria": "Química",
+    "sinopsis": "Exploración detallada de las propiedades físicas y químicas detrás del silicio, los procesadores de alto rendimiento y la memoria de acceso aleatorio (RAM) en dispositivos portátiles.",
+    "stock": 3,
+    "ubicacion": "Piso 2, Sector Ciencias - Estante Q"
+  },
+  {
+    "id": 116,
+    "titulo": "Óptica y Comportamiento de la Luz en la Naturaleza",
+    "autor": "David Lynch",
+    "categoria": "Física",
+    "sinopsis": "Principios físicos fundamentales para la calibración de lentes, la captura de sujetos a gran velocidad y el uso de sensores avanzados en entornos de alta o baja luminosidad.",
+    "stock": 2,
+    "ubicacion": "Piso 2, Sector Ciencias - Estante F"
+  },
+  {
+    "id": 117,
+    "titulo": "Instrumentación y Mediciones Electromagnéticas",
+    "autor": "David A. Bell",
+    "categoria": "Electromagnetismo",
+    "sinopsis": "Manual práctico sobre el uso avanzado del multímetro y el osciloscopio para diagnosticar fallas de tensión y corriente en simulaciones de circuitos de hardware.",
+    "stock": 5,
+    "ubicacion": "Piso 3, Sector Ingeniería - Estante E"
+  },
+  {
+    "id": 118,
+    "titulo": "Desarrollo Físico del Felino Joven",
+    "autor": "Susan Little",
+    "categoria": "Medicina",
+    "sinopsis": "Guía veterinaria especializada en el crecimiento de cachorros felinos en sus primeros meses, analizando las variaciones de pelaje y los requerimientos nutricionales para un desarrollo óptimo.",
+    "stock": 4,
+    "ubicacion": "Piso 1, Sector Salud - Estante M"
+  },
+  {
+    "id": 119,
+    "titulo": "Derecho del Consumidor y Comercio Local",
+    "autor": "Hernán Corral",
+    "categoria": "Derecho",
+    "sinopsis": "Estudio exhaustivo de las normativas vigentes que regulan las transacciones minoristas, los derechos de garantía de equipos tecnológicos y las responsabilidades del proveedor.",
+    "stock": 6,
+    "ubicacion": "Piso 4, Sector Humanidades - Estante D"
+  },
+  {
+    "id": 120,
+    "titulo": "Psicología de la Estrategia y Planificación",
+    "autor": "Jane McGonigal",
+    "categoria": "Psicología",
+    "sinopsis": "Análisis de la toma de decisiones, la optimización de recursos y el desarrollo de habilidades cognitivas al momento de liderar y estructurar campañas tácticas complejas.",
+    "stock": 3,
+    "ubicacion": "Piso 4, Sector Humanidades - Estante P"
+  },
+  {
+    "id": 121,
+    "titulo": "Periodismo Computacional y Automatización",
+    "autor": "Jonathan Stray",
+    "categoria": "Periodismo",
+    "sinopsis": "Aplicación práctica de lenguajes de programación estructurados, como Java y Python, para la recopilación, verificación y análisis de grandes bases de datos en investigaciones noticiosas.",
+    "stock": 2,
+    "ubicacion": "Piso 1, Sector Comunicaciones - Estante C"
+  },    
+  {
+    "id": 108,
+    "titulo": "Físico-Química de Baterías de Litio",
+    "autor": "John B. Goodenough",
+    "categoria": "Química",
+    "sinopsis": "Análisis de la degradación, gestión térmica y límites de carga porcentual en baterías de iones de litio para dispositivos móviles y hardware moderno.",
+    "stock": 4,
+    "ubicacion": "Piso 2, Sector Ciencias - Estante B"
+  },
+  {
+    "id": 109,
+    "titulo": "Óptica Aplicada a la Fotografía de Vida Silvestre",
+    "autor": "Ansel Adams",
+    "categoria": "Física",
+    "sinopsis": "Estudio del comportamiento lumínico, sistemas de súper zoom y sensores DSLR para la captura nítida de aves y fauna a gran distancia.",
+    "stock": 2,
+    "ubicacion": "Piso 2, Sector Ciencias - Estante F"
+  },
+  {
+    "id": 110,
+    "titulo": "Prototipado de Hardware y Sensores Biométricos",
+    "autor": "Simon Monk",
+    "categoria": "Electromagnetismo",
+    "sinopsis": "Guía de circuitos para el desarrollo de pulseras técnicas y dispositivos wearables enfocados en medir la frecuencia y duración de eventos de salud.",
+    "stock": 5,
+    "ubicacion": "Piso 3, Sector Ingeniería - Estante W"
+  },
+  {
+    "id": 111,
+    "titulo": "Dinámicas de Integración Felina",
+    "autor": "Sarah Ellis",
+    "categoria": "Medicina",
+    "sinopsis": "Aborda el manejo clínico del comportamiento territorial en machos adultos frente a la introducción de crías jóvenes en el hogar, previniendo el estrés.",
+    "stock": 3,
+    "ubicacion": "Piso 1, Sector Salud - Estante V"
+  },
+  {
+    "id": 112,
+    "titulo": "Derecho Comercial y Patentes Tecnológicas",
+    "autor": "Ricardo Sandoval",
+    "categoria": "Derecho",
+    "sinopsis": "Análisis de la legislación aplicable al comercio local, registros de software y protección legal de prototipos de ingeniería a nivel nacional.",
+    "stock": 6,
+    "ubicacion": "Piso 4, Sector Humanidades - Estante D"
+  },
+  {
+    "id": 113,
+    "titulo": "Psicología de la Toma de Decisiones Tácticas",
+    "autor": "Daniel Kahneman",
+    "categoria": "Psicología",
+    "sinopsis": "Un enfoque cognitivo sobre cómo el cerebro humano resuelve problemas complejos y planea estrategias a largo plazo en entornos simulados de alta exigencia.",
+    "stock": 4,
+    "ubicacion": "Piso 4, Sector Humanidades - Estante P"
+  },
+  {
+    "id": 114,
+    "titulo": "Periodismo de Datos con Grafos y Código",
+    "autor": "Philip Meyer",
+    "categoria": "Periodismo",
+    "sinopsis": "Metodologías para cruzar bases de datos complejas utilizando diagramas de nodos en Neo4j y rutinas de análisis estructurado en lenguajes como Python.",
+    "stock": 2,
+    "ubicacion": "Piso 1, Sector Comunicaciones - Estante C"
+  },
+  {
+    "id": 101,
+    "titulo": "Química Orgánica Estructural",
+    "autor": "K. Peter C. Vollhardt",
+    "categoria": "Química",
+    "sinopsis": "Análisis detallado de reacciones moleculares, síntesis y la estructura de los compuestos de carbono en ambientes controlados de laboratorio.",
+    "stock": 3,
+    "ubicacion": "Piso 2, Sector Ciencias - Estante Q"
     },
     {
-        "id": 2,
-        "titulo": "The Secret of the Universe",
-        "autor": "J.K. Rowling",
-        "categoria": "Literatura Inglesa (English)",
-        "sinopsis": "An engaging and thrilling journey written entirely in fluent English.",
-        "stock": 3,
-        "ubicacion": "Piso 1, Sector Idiomas - Estante D"
+    "id": 102,
+    "titulo": "Óptica Aplicada y Captura de la Luz",
+    "autor": "Eugene Hecht",
+    "categoria": "Física",
+    "sinopsis": "Estudio avanzado de la refracción, la difracción de fotones y el diseño de lentes de largo alcance para la captura de imágenes en la naturaleza.",
+    "stock": 2,
+    "ubicacion": "Piso 2, Sector Ciencias - Estante F"
     },
     {
-        "id": 3,
-        "titulo": "A Tale of Modern History (Vol. 2)",
-        "autor": "Charles Dickens",
-        "categoria": "Literatura Inglesa (English)",
-        "sinopsis": "Perfect for intermediate to advanced readers looking to expand their vocabulary.",
-        "stock": 1,
-        "ubicacion": "Piso 1, Sector Idiomas - Estante C"
+    "id": 103,
+    "titulo": "Análisis de Circuitos y Redes Eléctricas",
+    "autor": "Charles K. Alexander",
+    "categoria": "Electromagnetismo",
+    "sinopsis": "Tratado exhaustivo sobre leyes de Kirchhoff, teoremas de Thevenin, diseño de puentes de Wheatstone y técnicas de simulación de hardware.",
+    "stock": 5,
+    "ubicacion": "Piso 3, Sector Ingeniería - Estante E"
+    },
+    {
+    "id": 104,
+    "titulo": "Medicina Veterinaria y Etología Felina",
+    "autor": "Karen L. Overall",
+    "categoria": "Medicina",
+    "sinopsis": "Manual clínico enfocado en el manejo del estrés territorial, dinámicas de juego e integración paulatina de crías jóvenes con gatos adultos en espacios cerrados.",
+    "stock": 4,
+    "ubicacion": "Piso 1, Sector Salud - Estante M"
+    },
+    {
+    "id": 105,
+    "titulo": "Derecho Constitucional y Garantías",
+    "autor": "Humberto Nogueira",
+    "categoria": "Derecho",
+    "sinopsis": "Revisión contemporánea de las bases institucionales, derechos fundamentales y el funcionamiento de la carta magna en la jurisprudencia moderna.",
+    "stock": 6,
+    "ubicacion": "Piso 4, Sector Humanidades - Estante D"
+    },
+    {
+    "id": 106,
+    "titulo": "Fundamentos de la Psicología Cognitiva",
+    "autor": "David Groome",
+    "categoria": "Psicología",
+    "sinopsis": "Exploración de los procesos mentales, desde la percepción sensorial y los sesgos hasta el funcionamiento de la memoria a corto y largo plazo.",
+    "stock": 3,
+    "ubicacion": "Piso 4, Sector Humanidades - Estante P"
+    },
+    {
+    "id": 107,
+    "titulo": "Periodismo de Datos e Investigación",
+    "autor": "Paul Bradshaw",
+    "categoria": "Periodismo",
+    "sinopsis": "Guía práctica para el uso de lenguajes de programación y extracción de bases de datos para rastrear y estructurar información de interés público.",
+    "stock": 2,
+    "ubicacion": "Piso 1, Sector Comunicaciones - Estante C"
     },
     {
         "id": 4,
