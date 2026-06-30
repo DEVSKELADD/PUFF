@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puff</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<aside id="sidebar">
+  <a class="sidebar-logo" href="index.html" id="logo-link" title="Ir a inicio">
+    <div class="sidebar-logo-icon">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+        <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+      </svg>
+    </div>
+    <div class="sidebar-logo-text">
+      <span class="name">Puff</span>
+      <span class="role">Asistente Académico</span>
+    </div>
+  </a>
+
+  <button id="btn-new">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/>
+    </svg>
+    Nueva consulta
+  </button>
+
+  <span class="sidebar-section-label">Historial</span>
+  <div id="history-list"></div>
+
+</aside>
+
+
+<main id="main">
+  <header id="topbar">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+      <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+    </svg>
+    <span class="title">Puff — Asistente Académico</span>
+  </header>
+
+  <div id="chat-area">
+
+    <section id="home">
+      <div class="home-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+          <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+        </svg>
+      </div>
+      <h1 class="home-title">Bienvenido a Puff</h1>
+      <p class="home-subtitle">Tu asistente de bibliografía universitaria. Cuéntame qué materia estás cursando o qué tema investigas y te recomendaré los mejores recursos académicos.</p>
+
+      <div class="pills" id="category-pills">
+        <span class="pill" data-cat="Ciencias">Ciencias</span>
+        <span class="pill" data-cat="Ingeniería">Ingeniería</span>
+      </div>
+
+      <div class="suggestions">
+        <div class="suggestion-card" data-prompt="Necesito un libro introductorio de cálculo diferencial.">Necesito un libro introductorio de cálculo diferencial.</div>
+        <div class="suggestion-card" data-prompt="¿Qué texto recomiendas para aprender estadística aplicada?">¿Qué texto recomiendas para aprender estadística aplicada?</div>
+      </div>
+    </section>
+
+
+    <div id="messages"></div>
+  </div>
+
+  <div id="input-bar">
+    <div class="input-wrap">
+      <textarea id="user-input" rows="1" placeholder="Escribe tu consulta académica aquí..."></textarea>
+      <button id="send-btn" title="Enviar">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</main>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
